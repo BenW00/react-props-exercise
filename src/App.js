@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// Question 2B
+import Exercise from "./exercise/Exercise";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // Question 2C
+    <div>
+      <Exercise/>
+      {/* Question 3A */}
+      <Exercise good="Awesome" bad="Terrible" />
     </div>
-  );
+  )
+  
 }
 
 export default App;
